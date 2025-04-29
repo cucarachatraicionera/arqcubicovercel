@@ -2,7 +2,6 @@ import { Popover } from "@headlessui/react";
 import { useTheme } from "next-themes";
 import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
-import Image from "next/image"; // 🔥 Agregado aquí
 import Button from "../Button";
 // Local Data
 import data from "../../data/portfolio.json";
@@ -28,7 +27,8 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                 onClick={() => router.push("/")}
                 className="cursor-pointer flex items-center"
               >
-                <Image src="/logo.png" alt="Logo" width={120} height={60} />
+                {/* Reemplazamos el logo de imagen con texto */}
+                <span className="text-2xl font-bold">arqCubico</span>
               </div>
 
               <div className="flex items-center">
@@ -128,7 +128,8 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
           onClick={() => router.push("/")}
           className="cursor-pointer flex items-center"
         >
-          <Image src="/logo.png" alt="Logo" width={120} height={60} />
+          {/* Reemplazamos el logo de imagen con texto */}
+          <span className="text-2xl font-bold">arqCubico</span>
         </div>
         {!isBlog ? (
           <div className="flex">

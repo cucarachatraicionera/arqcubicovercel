@@ -16,7 +16,7 @@ const Footer = ({}) => {
             <h1 className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl text-bold">
               JUNTOS
             </h1>
-            <a href="tel:+573117720385">
+            <a href="tel:+573137235504">
               <Button type="primary">Llámanos</Button>
             </a>
             <div className="mt-10">

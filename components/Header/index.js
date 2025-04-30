@@ -79,14 +79,14 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                   {showResume && (
                     <Button
                       onClick={() =>
-                        window.open("mailto:edificandoingenierossas@gmail.com")
+                        window.open("mailto:cubicoasociados@gmail.com")
                       }
                     >
                       Resume
                     </Button>
                   )}
                   <Button
-                    onClick={() => window.open("mailto:edificandoingenierossas@gmail.com")}
+                    onClick={() => window.open("mailto:cubicoasociados@gmail.com")}
                   >
                     Contacto
                   </Button>
@@ -97,7 +97,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                     Inicio
                   </Button>
                   {showBlog && (
-                    <Button onClick={() => router.push("/blog")}>Blog</Button>
+                    <Button onClick={() => router.push("/blog")}>Proyectos</Button>
                   )}
                   {showResume && (
                     <Button
@@ -108,7 +108,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                     </Button>
                   )}
                   <Button
-                    onClick={() => window.open("mailto:edificandoingenierossas@gmail.com")}
+                    onClick={() => window.open("mailto:cubicoasociados@gmail.com")}
                   >
                     Contacto
                   </Button>
@@ -145,7 +145,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                 Resume
               </Button>
             )}
-            <Button onClick={() => window.open("mailto:edificandoingenierossas@gmail.com")}>
+            <Button onClick={() => window.open("mailto:cubicoasociados@gmail.com")}>
               Contacto
             </Button>
             {mounted && theme && data.darkMode && (
@@ -174,7 +174,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                 Resume
               </Button>
             )}
-            <Button onClick={() => window.open("mailto:edificandoingenierossas@gmail.com")}>
+            <Button onClick={() => window.open("mailto:cubicoasociados@gmail.com")}>
               Contacto
             </Button>
             {mounted && theme && data.darkMode && (

@@ -9,7 +9,7 @@
 }
 
 body {
-  @apply dark:bg-black dark:text-white;
+  @apply bg-white text-black;
 }
 
 .gradient-circle {
@@ -27,6 +27,7 @@ body {
     rgba(255, 63, 29, 0.8) 100%
   );
 }
+
 .gradient-circle-bottom {
   position: absolute;
   pointer-events: none;
@@ -59,11 +60,7 @@ body {
   border-radius: inherit;
 }
 
-/* 
-* Prevents issues when the parent creates a 
-* stacking context. (For example, using the transform
-* property )
-*/
+/* Prevent stacking issues */
 .gradient-shadow:hover::after {
   content: "";
   z-index: -1;

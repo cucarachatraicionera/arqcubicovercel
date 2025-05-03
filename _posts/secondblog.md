@@ -17,3 +17,5 @@ image: >-
 
 
 ![An old rock in the desert](https://bafybeiaphdm4wshcsm6jv2i5pc36dl7wnmz34hptudwidi74n5yl2tzsla.ipfs.w3s.link/Copia%20de%20Copia%20de%20DJI_0030.JPG)
+![An old rock in the desert](https://bafybeiguz4ac5sysiakokefdyylxgyzf62ioxd6lgp354r3duxstr7tm2y.ipfs.w3s.link/Copia%20de%20DJI_0012.JPG)
+

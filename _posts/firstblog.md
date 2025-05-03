@@ -16,10 +16,6 @@ image: >-
 Ubicada en un entorno natural privilegiado, Casa Horizonte es una vivienda de diseño moderno pensada para el confort y la conexión con el paisaje. Con 195 m², integra cocina abierta, sala, comedor, 4 habitaciones, 2 baños, zona de juegos y gimnasio privado. Incluye piscina, kiosco y senderos que conectan con el jardín, creando un equilibrio perfecto entre lujo, naturaleza y funcionalidad.
 
 
-## Links
-
-My favorite search engine is [Duck Duck Go](https://duckduckgo.com).
-
 
 ![An old rock in the desert](https://bafybeidakctdqzsaoare4s5vbtdhb22dale6ldv4dv2id53pliiqq3mhlq.ipfs.w3s.link/Foto%20de%20Arq.%20Juan%20Diego%20Lopez)
 
